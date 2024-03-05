@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.page {
+  height: 100vh;
+}
+#page1 {
+  background-color: red;
+}
+#page2 img {
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  width: 20%;
+  height: 100vh;
+  object-fit: cover;
+  /* object-position: top; */
+}
+#page2 {
+  background-color: gold;
+}
+#page3 {
+  background-color: blue;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
